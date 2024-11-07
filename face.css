@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("хомячок.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    text-align: center;
+    background: linear-gradient(45deg, #fffd7e, #739de6) ;
+    
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .player {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    width: 135px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .player-score {
+    font-size: 24px;
+  }
+  
+  .numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .number {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #3b89ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid #1100ff;
+  }
+  
+  #Button {
+    padding: 10px 20px;
+    background-color: #0400ff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  #Button:hover {
+    background-color: #50a9fc;
+  }
+  
+  #result {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
